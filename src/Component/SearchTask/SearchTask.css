@@ -1,0 +1,10 @@
+.search-form {
+  margin: 0.5rem 0;
+}
+
+.search-form input {
+  padding: 0.5rem;
+  border-radius: 2px;
+  border: 1px solid grey;
+  font-size: 1rem;
+}

@@ -1,0 +1,41 @@
+h3 {
+  padding: 0.5rem 0;
+  border-bottom: 2px solid black;
+}
+
+.todo-form {
+  display:flex;
+  align-items: center;
+  margin: 0.5rem 0;
+}
+
+.task-input {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+  border-radius: 2px;
+  border: 1px solid grey;
+  font-size: 1rem;
+}
+
+.date-picker {
+  padding: 0.5rem;
+  box-sizing: border-box;
+  border: 1px solid grey;
+  border-radius: 2px;
+  margin-right: 0.5rem;
+  font-size: 1rem;
+}
+
+.todo-form button {
+  background-color: white;
+  padding: 0.5rem;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.todo-form button:hover {
+  background-color: black;
+  color: white;
+}
